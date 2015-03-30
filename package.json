@@ -1,5 +1,5 @@
 {
-  "name": "prerender-cache-first",
+  "name": "prerender-ba-fs-cache",
   "version": "1.0.0",
   "description": "File based prerender cache that tries to always return a cached value",
   "main": "index.js",
