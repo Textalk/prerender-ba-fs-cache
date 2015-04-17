@@ -17,8 +17,8 @@ before transfer) on disk, the filename is a sha1 hash of the entire URL and is s
 
 `<domain>/<first-two-chars-of-hash>/<sha1-hash-of-entire-url>`
 
-Usage
-=====
+### Usage
+
 
 Order of prerender plugins is important, probably best to keep it last in the list.
 
@@ -29,8 +29,8 @@ server.use(require('prerender-ba-fs-cache')({
 }));
 ```
 
-Options
-=======
+### Options
+-------
 | Name    |  Purpose         |
 |---------|------------------|
 | ttl     | If the cached file is older than this, then start rendering the page *after* cached file is served |
@@ -38,8 +38,8 @@ Options
 
 
 
-TODO:
-=====
+### TODO:
+
 * Tests
 * option for checking if content is correct before storing it in cache, currently it checks
   if the rendered page is more than 2000 chars to avoid caching blank pages. 
