@@ -1,0 +1,13 @@
+{
+  "extends": "eslint-config-airbnb-base",
+  "env": {
+    "node": true
+  },
+  "globals": {
+
+  },
+  "rules": {
+    "no-param-reassign": ["off", {"props": false}],
+    "no-console": ["off"]
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "preset": "google",
-  "maximumLineLength": {
-    "value": 100,
-    "allowComments": true
-  }
-}
