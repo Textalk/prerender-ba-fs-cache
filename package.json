@@ -1,6 +1,6 @@
 {
   "name": "prerender-ba-fs-cache",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "File/S3 based prerender cache that tries to always return a cached value",
   "main": "index.js",
   "scripts": {
